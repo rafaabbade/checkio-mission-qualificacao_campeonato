@@ -10,7 +10,6 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        [
     {
         "input": [14, 5],
         "answer": "Qualificado para o campeonato"
@@ -27,6 +26,5 @@ TESTS = {
         "input": [18, 6],
         "answer": "Qualificado para o campeonato"
     }
-]
     ]
 }
