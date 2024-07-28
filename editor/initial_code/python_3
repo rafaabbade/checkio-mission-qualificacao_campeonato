@@ -1,1 +1,14 @@
-{{CODIGO INICIAL}}
+def qualificacao_campeonato(idade, competicoes):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(qualificacao_campeonato(14, 5))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert qualificacao_campeonato(14, 5) == "Qualificado para o campeonato"
+assert qualificacao_campeonato(13, 6) == "Não qualificado para o campeonato"
+assert qualificacao_campeonato(14, 4) == "Não qualificado para o campeonato"
+assert qualificacao_campeonato(18, 6) == "Qualificado para o campeonato"
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

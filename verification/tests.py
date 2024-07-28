@@ -10,6 +10,23 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        {{TESTES}}
+        [
+    {
+        "input": [14, 5],
+        "answer": "Qualificado para o campeonato"
+    },
+    {
+        "input": [13, 6],
+        "answer": "Não qualificado para o campeonato"
+    },
+    {
+        "input": [14, 4],
+        "answer": "Não qualificado para o campeonato"
+    },
+    {
+        "input": [18, 6],
+        "answer": "Qualificado para o campeonato"
+    }
+]
     ]
 }
